@@ -75,19 +75,67 @@ nav ul li a{
     justify-content: space-between;
 }
 .banner-content{
+    height: 675px;
+    display: flex;
     max-width: 580px;
+    flex-direction: column;
+    justify-content: center;
 }
 .banner-greetings{
+    margin: 0 0;
     font-size: 45px;
     font-weight: 600;
 }
 .banner-title{
+    margin: 0 0;
     font-size: 85px;
     font-weight: 700;
 }
 
 .banner-profile{
     width: 580px;
+    height: 100%;
+}
+.banner-description{
+    margin: 25px 0;
+}
+
+.banner-button{
+    display: flex;
+}
+#btn-one{
+    cursor: pointer;
+    font-size: 20px; 
+    font-weight: 700;
+    color: #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    margin-right: 12px;
+    background: transparent;
+    border: 1px solid #FD6E0A;
+    transition: all linear 0.4s;
+}
+#btn-one:hover{
+    color: #fff;
+    background: #FD6E0A;
+    transition: all linear 0.4s;
+}
+#btn-two{
+    cursor: pointer;
+    font-size: 20px; 
+    font-weight: 700;
+    color: #FD6E0A;
+    margin-left: 12px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #FD6E0A;
+    transition: all linear 0.4s;
+}
+#btn-two:hover{
+    color: #fff;
+    background: #FD6E0A;
+    transition: all linear 0.4s;
 }
 
 /* main styles */
@@ -106,6 +154,12 @@ main section{
     padding: 130px 150px;
 }
 
+.about-content{
+    padding: 0 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
 .about-items{
     display: flex;
     justify-content: space-around;
@@ -120,6 +174,9 @@ main section{
     gap: 24px;
     display: flex;
 }
+.skill-padding{
+    padding: 0 110px 50px;
+}
 .skill{
     padding: 30px;
     border-radius: 5px;
@@ -127,10 +184,9 @@ main section{
 }
 
 /* resume styles */
-.section-title{
-    margin-bottom: 100px;
+.section-bottom{
+    margin-bottom: 130px;
 }
-
 .resume-container{
     gap: 24px;
     display: flex;
