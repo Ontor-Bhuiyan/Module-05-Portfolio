@@ -239,3 +239,9 @@ footer input[type="text"], footer input[type="email"], textarea{
     background: #fff;
     margin-bottom: 24px;
 }
+.footer-icon{
+    margin-top: 30px;
+}
+.footer-icon .mid-icon{
+    padding: 0 24px;
+}
